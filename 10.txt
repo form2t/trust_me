@@ -1,0 +1,12 @@
+public record Elements(
+    Profile2D FloorProfile,
+    IReadOnlyList<Profile2D> FloorOpeningProfiles,
+    IReadOnlyList<Line2D> VerticalOpeningLines,
+    IReadOnlyList<Profile2D> OldFloorOpeningProfiles,
+    Grids Grids,
+    IReadOnlyList<StructureWallDto> Walls,
+    IReadOnlyList<ColumnDto> Columns,
+    IReadOnlyList<BeamDto> Beams,
+    IReadOnlyList<StructureWallDto> VirtualWalls,
+    IReadOnlyList<StairLandingData> StairLandings,
+    IReadOnlyList<EquipmentDto> Equipments);
